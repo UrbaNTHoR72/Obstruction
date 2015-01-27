@@ -1,0 +1,70 @@
+****************************************************
+Ethan Gagne		    0875556
+CIS 2500		    Assignmnt 1
+January 16, 2015
+****************************************************
+
+
+************
+Compilation
+************
+to compile this program simply run the make file while in the A1 directory
+    by entering:
+
+make
+
+on the commandline
+
+***********************
+Running the program(s)
+***********************
+To run this program type ./bin/runMe of the command line
+    while in the A1 directory
+
+***CONTROLS***
+i - UP      j - LEFT
+k - DOWN    l - RIGHT
+x - SELECT  q - QUIT
+h - HELP
+
+***OBJECTIVE***
+to be the last person to place a marker on the board
+
+***HOW-TO-PLAY***
+Players take turns placing markers on the gameboard.
+Use the movement commands to move the cursor around and use the SELECT
+    key to place your marker.
+Markers can only be placed on empty squares.
+When a marker is placed, the appropriate marker will be placed and every
+    adjacent square will be blocked off by 'obstructions'.
+Using the stated game mechanics you can create strategies to 
+    trap the other player.
+If you need a reminder of how to play in the game press the HELP key.
+
+*****************
+Known Limitations
+*****************
+- player name can be 22 characters long at most
+- only one game can be played before having to reload the program
+- only accepts input from the i, j, k, l, q, x, and h keys
+- terminal window must be at least 63 x 46 in size
+
+*****************
+Testing Done
+*****************
+-cursor is locked to bounds
+-neither the computer of player can select taken spots
+-a winner is declared
+-game screen is displayed correctly
+-game screen updates properly
+-help screen is displayed properly
+-obstructions are placed corectly
+-does not take invalid buttons presses
+-player messages are displayed correctly
+-the game is able to be quit at any time
+
+
+
+
+
+
